@@ -1,0 +1,45 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Ambiente Virtual (VENV) ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- VS Code ---
+.vscode/
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Dados (Datalake Local) ---
+# Descomente a linha abaixo (remova o #) se não quiser subir NENHUM CSV
+# *.csv
+
+# Se quiser ignorar apenas arquivos pesados, mas manter a estrutura:
+# !data_raw/
