@@ -24,7 +24,7 @@ wheels/
 .venv/
 venv/
 ENV/
-env/
+.env
 
 # --- Jupyter Notebook ---
 .ipynb_checkpoints
@@ -38,8 +38,7 @@ env/
 Thumbs.db
 
 # --- Dados (Datalake Local) ---
-# Descomente a linha abaixo (remova o #) se não quiser subir NENHUM CSV
-# *.csv
+*.csv
 
-# Se quiser ignorar apenas arquivos pesados, mas manter a estrutura:
-# !data_raw/
+# --- Mantem Estrutura ---
+!data_raw/
